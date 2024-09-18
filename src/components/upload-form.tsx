@@ -102,7 +102,7 @@ const UploadDocumentForm = (props: Props) => {
                 <FormItem>
                   <FormLabel>Title</FormLabel>
                   <FormControl>
-                    <Input placeholder="e.g constitution" {...field} />
+                    <Input placeholder="e.g puppy time" {...field} />
                   </FormControl>
                   <FormDescription>A title for your document.</FormDescription>
                   <FormMessage />
