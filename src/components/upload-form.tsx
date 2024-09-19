@@ -32,7 +32,7 @@ type Props = {};
 const formSchema = z.object({
   title: z
     .string({
-      required_error: "Title is required",
+      required_error: "Document Title is required",
     })
     .min(2)
     .max(50),
